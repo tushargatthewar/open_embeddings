@@ -1,3 +1,6 @@
+import sys
+import pysqlite3  # Forces use of modern SQLite
+sys.modules["sqlite3"] = pysqlite3
 import streamlit as st
 import fitz  # PyMuPDF
 from sentence_transformers import SentenceTransformer
