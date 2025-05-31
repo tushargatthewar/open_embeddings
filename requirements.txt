@@ -1,5 +1,6 @@
 streamlit
 sentence-transformers
 chromadb
-langchain
 PyMuPDF
+protobuf==3.20.*
+torch==2.1.0
